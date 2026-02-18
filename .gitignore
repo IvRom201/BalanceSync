@@ -1,0 +1,20 @@
+# Создать .gitignore
+@"
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Compiled files
+target/
+*.class
+
+# Build tools
+*.log
+*.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+"@ | Out-File -FilePath .gitignore -Encoding UTF8
